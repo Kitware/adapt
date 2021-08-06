@@ -1,0 +1,18 @@
+site_name: ADAPT
+site_url: ""
+theme:
+    name: material
+    features:
+        - navigation.top
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+
+nav:
+  - Home: index.md
+
+repo_url: https://gitlab.kitware.com/adapt/adapt
+repo_name: Gitlab ADAPT repo
