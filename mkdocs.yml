@@ -12,6 +12,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - admonition
+  - toc:
+        toc_depth : "1-1"
 
 nav:
     - Home: index.md
