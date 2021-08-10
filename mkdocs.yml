@@ -4,6 +4,8 @@ theme:
     name: material
     features:
         - navigation.top
+    logo: img/adapt_white.png
+    favicon: img/adapt.png
 
 markdown_extensions:
   - attr_list
@@ -12,7 +14,15 @@ markdown_extensions:
   - admonition
 
 nav:
-  - Home: index.md
+    - Home: index.md
+    - About: about.md
+    - Get Started: get_started.md
+    - Structure: structure.md
+    - Latest updates: blog.md
+    - Payload Components : parts.md
+    - Example Missions: missions.md
+    - Frequently Asked Questions: faq.md
+    - Contact Us: contact.md
 
 repo_url: https://gitlab.kitware.com/adapt/adapt
 repo_name: Gitlab ADAPT repo

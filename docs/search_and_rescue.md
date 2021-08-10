@@ -1,0 +1,3 @@
+By exploiting readily available deep-neural-network models for person detection, the ADAPT payload could be used to alert to the presence of a person within a search area, providing a view of the detected person back to the ground station.
+
+More to come...
