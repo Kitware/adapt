@@ -6,7 +6,7 @@ Building the payload with all components in house
 
 # 2021 July
 
-The carbon fiber frame for the payload supports the 115mm standard rail for easy interfacing:
+The carbon fiber frame for the payload supports the 155mm standard rail for easy interfacing:
 
 ![cb frame 1](img/cb2.jpg)
 ![cb frame 2](img/cb3.jpg)
