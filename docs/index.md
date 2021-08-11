@@ -3,7 +3,7 @@
 
 ### An open source platform for deploying state of the art deep-neural-network computer vision in real time on small unmanned aircraft systems (sUAS).
 
-![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="width:500px"}
+![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="width:500px; align=right" } ![sUAS](img/suas.png){: style="width:232px;align=left" }
 
 * Optimized drone-based collection of imagery and geospatial metadata with live feedback to maintain quality control.
 
