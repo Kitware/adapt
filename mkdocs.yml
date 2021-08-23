@@ -23,6 +23,13 @@ nav:
     - Latest updates: blog.md
     - Payload Components : parts.md
     - Example Missions: missions.md
+    - Provisioning:
+        - Overview: provisioning.md
+        - ADAPT software stack: prov1.md
+        - 1PPS hardware input: prov2.md
+        - Configure time server: prov3.md
+        - PTP server: prov4.md
+        - Automatic startup: prov5.md
     - Frequently Asked Questions: faq.md
     - Contact Us: contact.md
 
