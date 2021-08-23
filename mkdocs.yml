@@ -1,5 +1,5 @@
 site_name: ADAPT
-site_url: ""
+site_url: "https://kitware.github.io/adapt/"
 theme:
     name: material
     features:
