@@ -1,13 +1,21 @@
 
+# 2021 August 27
+Payload testing on an UAS
+![payload image](img/uas1.png){: style="width:580px"}
+![payload image](img/uas2.png){: style="width:580px"}
+![payload image](img/uas3.png){: style="width:580px"}
+![payload image](img/uas4.png){: style="width:580px"}
+![payload image](img/uas5.png){: style="width:580px"}
+
 # 2021 August 11
 
 Building the payload with all components in house
+![payload image 5](img/payload_build5.png){: style="width:580px"}
+![payload image 6](img/payload_build6.png){: style="width:580px"}
 ![payload image 1](img/payload_build1.png){: style="width:580px"}
 ![payload image 2](img/payload_build2.png){: style="width:400px"}
 ![payload image 3](img/payload_build3.png){: style="width:580px"}
 ![payload image 4](img/payload_build4.png){: style="width:580px"}
-![payload image 5](img/payload_build5.png){: style="width:580px"}
-![payload image 6](img/payload_build6.png){: style="width:580px"}
 
 # 2021 July
 
