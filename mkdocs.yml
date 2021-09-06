@@ -22,7 +22,14 @@ nav:
     - Structure: structure.md
     - Latest updates: blog.md
     - Payload Components : parts.md
-    - Example Missions: missions.md
+    - Example Missions:
+        - Missions: missions.md
+        - Sea and River Ice Monitoring: ice_monitor.md
+        - Monitoring Arctic Mammal Populations: ice_seal.md
+        - Person Search and Rescue: search_and_rescue.md
+        - Wild Fire Monitoring: fire_monitoring.md
+        - Flood Monitoring: flood_monitoring.md
+        - Coastline Erosion Monitoring: coastline_monitoring.md
     - Provisioning:
         - Overview: provisioning.md
         - ADAPT software stack: prov1.md
@@ -30,6 +37,7 @@ nav:
         - Configure time server: prov3.md
         - PTP server: prov4.md
         - Automatic startup: prov5.md
+    - Presentations: presentations.md
     - Frequently Asked Questions: faq.md
     - Contact Us: contact.md
 
