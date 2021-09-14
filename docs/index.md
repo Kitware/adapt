@@ -12,6 +12,8 @@
 
 * Commodity [hardware components](parts), [CAD models](https://github.com/Kitware/adapt/tree/main/cad), and [open-source software](https://gitlab.kitware.com/adapt/adapt_ros_ws) allows organizations to cheaply and easily build their own payloads
 
+![type:video](https://player.vimeo.com/video/604889851)
+
 ## Supports a variety of unique missions
 
 * [Sea and River Ice Monitoring](ice_monitor.md)
