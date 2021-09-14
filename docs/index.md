@@ -1,9 +1,8 @@
-
 # ADAPT Multi-Mission Payload
 
 ### An open source platform for deploying state of the art deep-neural-network computer vision in real time on small unmanned aircraft systems (sUAS).
 
-![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="width:500px; align=right" } ![sUAS](img/suas.png){: style="width:232px;align=left" }
+![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="height:240px; align:left" } ![sUAS](img/payload1.png){: style="height:240px;align:right" }
 
 * Optimized drone-based collection of imagery and geospatial metadata with live feedback to maintain quality control.
 
@@ -11,7 +10,7 @@
 
 * Upload your models for aerial deployment with real-time, georegistered analytics wirelessly transmitted to a ground station computer and beyond for rapid dissemination.
 
-* Commodity [hardware components](parts) and open-source software allows organizations to cheaply and easily build their own payloads
+* Commodity [hardware components](parts), [CAD models](https://github.com/Kitware/adapt/tree/main/cad), and [open-source software](https://gitlab.kitware.com/adapt/adapt_ros_ws) allows organizations to cheaply and easily build their own payloads
 
 ## Supports a variety of unique missions
 
@@ -27,9 +26,13 @@ Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to 
 ## Explore
 [Try the simulator with docker](https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim){.md-button}
 
-## Upcoming Events
-We are going to Fairbanks Alaska September 6, 2021 for data collection...
+## Events
+* [Kitware and ACUASI September 2021 data collection in Fairbanks Alaska](sept_2021_collects.md).
+* [The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences](https://2021noaaaiworkshop.sched.com/info)
 
 ## Presentations
 * [Slides - The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences](https://docs.google.com/presentation/d/1PMgJrYxrqMtuJYR-xiAdFsjSSQt90_XOcYZ5pRXP4sk/edit#slide=id.p)
 * [Recording - The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences](https://drive.google.com/file/d/1BI0qeIOw7TK262lNJzK_m3XIJd-RSvQn/view?usp=sharing)
+
+
+![sUAS](img/ondrone.png)

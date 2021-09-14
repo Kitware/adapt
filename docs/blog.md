@@ -1,3 +1,6 @@
+# 2021 September 6-9
+
+See our page on our [data collection in Fairbanks Alaska](sept_2021_collects.md).
 
 # 2021 August 27
 
