@@ -2,7 +2,7 @@
 
 [Back to Provisioning Overview](provisioning.md){.md-button}
 
-The insallation of the [ADAPT ROS Workspace](https://gitlab.kitware.com/adapt/adapt_ros_ws) contains a folder with example configuration files.  Among those are some systemd service files. NOTE: you may want to edit the paths inside the two files shown below to match where your 'adapt_ros_ws' files are located.
+The installation of the [ADAPT ROS Workspace](https://gitlab.kitware.com/adapt/adapt_ros_ws) contains a folder with example configuration files.  Among those are some systemd service files. NOTE: you may want to edit the paths inside the two files shown below to match where your 'adapt_ros_ws' files are located.
 
 To install the systemd service files, follow these commands:
 ```
