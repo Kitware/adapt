@@ -2,7 +2,7 @@
 
 ### An open source platform for deploying state of the art deep-neural-network computer vision in real time on small unmanned aircraft systems (sUAS).
 
-![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="height:240px; align:left" } ![sUAS](img/payload1.png){: style="height:240px;align:right" }
+![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="height:240px; align:left" } ![sUAS](img/snow_img.png){: style="height:240px;align:right" }
 
 * Optimized drone-based collection of imagery and geospatial metadata with live feedback to maintain quality control.
 
@@ -37,4 +37,4 @@ Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to 
 * (2021) The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences: [Slides](https://docs.google.com/presentation/d/1PMgJrYxrqMtuJYR-xiAdFsjSSQt90_XOcYZ5pRXP4sk/edit#slide=id.p), [Recording](https://drive.google.com/file/d/1BI0qeIOw7TK262lNJzK_m3XIJd-RSvQn/view?usp=sharing)
 
 
-![sUAS](img/ondrone.png)
+![sUAS](img/ondrone.png){: style="height:260px; align:left" } ![sUAS](img/ondrone2.png){: style="height:260px;align:right" }

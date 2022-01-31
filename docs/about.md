@@ -1,5 +1,5 @@
 # About the ADAPT Project
-![Payload CAD Rendering](img/adapt.png){: style="width:200px"}
+![adapt logo](img/adapt.png){: style="width:240px;align:right"} ![sUAS](img/payload1.png){: style="height:240px;align:left" }
 
 **A**utonomous **D**ata **A**cquisition and **P**rocessing **T**echnologies
 

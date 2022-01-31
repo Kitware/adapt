@@ -42,7 +42,7 @@ nav:
         - Configure time server: prov3.md
         - PTP server: prov4.md
         - Automatic startup: prov5.md
-    - Presentations: presentations.md
+    - Papers/Presentations: presentations.md
     - Frequently Asked Questions: faq.md
     - Contact Us: contact.md
 

@@ -1,3 +1,17 @@
+# 2022 January 24
+
+Additional flights recorded
+
+![payload on drone](img/adapt_202201_b.png){: style="width:1024px"}
+![base station](img/adapt_202201_e.png){: style="width:1024px"}
+![payload flying](img/adapt_202201_g.png){: style="width:1024px"}
+
+# 2021 November 4
+
+Additional flights recorded
+
+![on screen image view with real time segmentation](img/adapt_202111_flight.png){: style="width:1024px"}
+
 # 2021 September 6-9
 
 See our page on our [data collection in Fairbanks Alaska](sept_2021_collects.md).
