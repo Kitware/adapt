@@ -6,7 +6,7 @@ The ADAPT payload is a general-purpose tool for optimized data collection and ae
 * [Sea and River Ice Monitoring](ice_monitor.md)
 * [Monitoring Arctic Mammal Populations](ice_seal.md)
 * [Person Search and Rescue](search_and_rescue.md)
-* [Wild Fire Monitoring](fire_monitoring.md)
+* [Wildfire Monitoring](fire_monitoring.md)
 * [Flood Monitoring](flood_monitoring.md)
 * [Coastline Erosion Monitoring](coastline_monitoring.md)
 * Oil Spill Monitoring
