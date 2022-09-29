@@ -37,7 +37,7 @@ Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to 
 
 * (2022) Ocean Sciences Meeting: [Slides](https://docs.google.com/presentation/d/15Ib9vKES6aAzlCuejUdRuDkyPnBcADa_OHr9GyepWBY/edit?usp=sharing)
 
-* (2022) 1st International Workshop on Practical Deep Learning in the Wild at AAAI Conference on Artificial Intelligence: [Paper](https://practical-dl.github.io/long_paper/20.pdf)
+* (2022) 1st International Workshop on Practical Deep Learning in the Wild at AAAI Conference on Artificial Intelligence: [Paper](https://arxiv.org/abs/2201.10366)
 
 * (2021) NOAA Innovators Series: [Slides](https://docs.google.com/presentation/d/1Bp65DTJMgateIyRNzrCvjfHrLshqS3AUaba3lLGbTts/edit?usp=sharing), [Recording](https://www.youtube.com/watch?v=eD95Di6B5wo&t=1735s)
 * (2021) The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences: [Slides](https://docs.google.com/presentation/d/1PMgJrYxrqMtuJYR-xiAdFsjSSQt90_XOcYZ5pRXP4sk/edit#slide=id.p), [Recording](https://drive.google.com/file/d/1BI0qeIOw7TK262lNJzK_m3XIJd-RSvQn/view?usp=sharing)
