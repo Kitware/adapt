@@ -2,6 +2,8 @@
 
 ### An open source platform for deploying state of the art deep-neural-network computer vision in real time on small unmanned aircraft systems (sUAS).
 
+Get the source code: [https://gitlab.kitware.com/adapt/adapt_ros_ws](https://gitlab.kitware.com/adapt/adapt_ros_ws)
+
 ![Payload CAD Rendering](img/adapt_payload_assembly.png){: style="height:240px; align:left" } ![sUAS](img/snow_img.png){: style="height:240px;align:right" }
 
 * Optimized drone-based collection of imagery and geospatial metadata with live feedback to maintain quality control.
@@ -26,6 +28,7 @@ Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to 
 
 
 ## Explore
+The ADAPT payload source code is hosted here: [https://gitlab.kitware.com/adapt/adapt_ros_ws](https://gitlab.kitware.com/adapt/adapt_ros_ws) or
 [Try the simulator with docker](https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim){.md-button}
 
 ## Events
