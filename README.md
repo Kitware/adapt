@@ -15,13 +15,16 @@
 
 ## Supports a variety of unique missions
 
-* [Sea and River Ice Monitoring](https://kitware.github.io/adapt/ice_monitor.md)
-* [Monitoring Arctic Mammal Populations](https://kitware.github.io/adapt/ice_seal.md)
-* [Person Search and Rescue](https://kitware.github.io/adapt/search_and_rescue.md)
-* [Wild Fire Monitoring](https://kitware.github.io/adapt/fire_monitoring.md)
-* [Coastline Erosion Monitoring](https://kitware.github.io/adapt/coastline_monitoring.md)
+* [Sea and River Ice Monitoring](https://kitware.github.io/adapt/ice_monitor)
+* [Monitoring Arctic Mammal Populations](https://kitware.github.io/adapt/ice_seal)
+* [Person Search and Rescue](https://kitware.github.io/adapt/search_and_rescue)
+* [Wild Fire Monitoring](https://kitware.github.io/adapt/fire_monitoring)
+* [Coastline Erosion Monitoring](https://kitware.github.io/adapt/coastline_monitoring)
 
 Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to support [key missions](https://uas.noaa.gov/Portals/5/Docs/NOAA%20UAS%20Program%20Overview%2019Apr2019.pdf?ver=2019-04-22-144716-137).
+
+## License
+This repository is under the Apache 2.0 license, see NOTICE and LICENSE file.
 
 ## Documentation
 Documentation: [https://kitware.github.io/adapt/](https://kitware.github.io/adapt/)
@@ -31,7 +34,7 @@ The ADAPT payload source code is hosted here: [https://gitlab.kitware.com/adapt/
 [Try the simulator with docker](https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim). Please use the Issue Tracker on Gitlab or contact us [here](https://kitware.github.io/adapt/contact/).
 
 ## Events
-* [Kitware and ACUASI September 2021 data collection in Fairbanks Alaska](https://kitware.github.io/adapt/sept_2021_collects.md).
+* [Kitware and ACUASI September 2021 data collection in Fairbanks Alaska](https://kitware.github.io/adapt/sept_2021_collects).
 * [The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences](https://2021noaaaiworkshop.sched.com/info)
 
 ## Papers / Presentations
