@@ -29,7 +29,7 @@ Ongoing work on the ADAPT project is funded by [NOAA](https://www.noaa.gov/) to 
 
 ## Explore
 The ADAPT payload source code is hosted here: [https://gitlab.kitware.com/adapt/adapt_ros_ws](https://gitlab.kitware.com/adapt/adapt_ros_ws) or
-[Try the simulator with docker](https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim){.md-button}
+[try the simulator with docker](https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim)
 
 ## Events
 * [Kitware and ACUASI September 2021 data collection in Fairbanks Alaska](sept_2021_collects.md).
