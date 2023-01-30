@@ -16,7 +16,6 @@ Get the source code: [https://gitlab.kitware.com/adapt/adapt_ros_ws](https://git
 
 ![type:video](https://player.vimeo.com/video/604889851)
 
-![type:video](https://drive.google.com/file/d/1rCm8xzfHsqEW3gdkXYD2n6kDkvKZN5-w/view?resourcekey)
 
 ## Supports a variety of unique missions
 
