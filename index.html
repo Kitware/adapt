@@ -1,0 +1,783 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the ADAPT payload">
+      
+      
+        <meta name="author" content="Kitware">
+      
+      
+        <link rel="canonical" href="https://kitware.github.io/adapt/">
+      
+      
+      
+        <link rel="next" href="about/">
+      
+      <link rel="icon" href="img/adapt.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.9">
+    
+    
+      
+        <title>ADAPT</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0d440cfe.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-G39JGPMQEQ"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-G39JGPMQEQ",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-G39JGPMQEQ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#adapt-multi-mission-payload" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="ADAPT" class="md-header__button md-logo" aria-label="ADAPT" data-md-component="logo">
+      
+  <img src="img/adapt_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ADAPT
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://gitlab.kitware.com/adapt/adapt" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab ADAPT repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="ADAPT" class="md-nav__button md-logo" aria-label="ADAPT" data-md-component="logo">
+      
+  <img src="img/adapt_white.png" alt="logo">
+
+    </a>
+    ADAPT
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://gitlab.kitware.com/adapt/adapt" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitlab ADAPT repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get_started/" class="md-nav__link">
+        Get Started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="structure/" class="md-nav__link">
+        Structure
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="blog/" class="md-nav__link">
+        Latest updates
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="parts/" class="md-nav__link">
+        Payload Components
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Example Missions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Example Missions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="missions/" class="md-nav__link">
+        Missions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ice_monitor/" class="md-nav__link">
+        Sea and River Ice Monitoring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ice_seal/" class="md-nav__link">
+        Monitoring Arctic Mammal Populations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="search_and_rescue/" class="md-nav__link">
+        Person Search and Rescue
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="fire_monitoring/" class="md-nav__link">
+        Wildfire Monitoring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="flood_monitoring/" class="md-nav__link">
+        Flood Monitoring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="coastline_monitoring/" class="md-nav__link">
+        Coastline Erosion Monitoring
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Provisioning
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Provisioning
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="provisioning/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prov1/" class="md-nav__link">
+        ADAPT software stack
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prov2/" class="md-nav__link">
+        1PPS hardware input
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prov3/" class="md-nav__link">
+        Configure time server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prov4/" class="md-nav__link">
+        PTP server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prov5/" class="md-nav__link">
+        Automatic startup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="presentations/" class="md-nav__link">
+        Papers/Presentations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact/" class="md-nav__link">
+        Contact Us
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="adapt-multi-mission-payload">ADAPT Multi-Mission Payload</h1>
+<h3 id="an-open-source-platform-for-deploying-state-of-the-art-deep-neural-network-computer-vision-in-real-time-on-small-unmanned-aircraft-systems-suas">An open source platform for deploying state of the art deep-neural-network computer vision in real time on small unmanned aircraft systems (sUAS).</h3>
+<p>Get the source code: <a href="https://gitlab.kitware.com/adapt/adapt_ros_ws">https://gitlab.kitware.com/adapt/adapt_ros_ws</a></p>
+<p><img alt="Payload CAD Rendering" src="img/adapt_payload_assembly.png" style="height:240px; align:left" /> <img alt="sUAS" src="img/snow_img.png" style="height:240px;align:right" /></p>
+<ul>
+<li>
+<p>Optimized drone-based collection of imagery and geospatial metadata with live feedback to maintain quality control.</p>
+</li>
+<li>
+<p>Integration with the open source do-it-yourself AI toolkit <a href="https://www.viametoolkit.org/">VIAME</a> to annotate data and train mission-specific image-processing models.</p>
+</li>
+<li>
+<p>Upload your models for aerial deployment with real-time, georegistered analytics wirelessly transmitted to a ground station computer and beyond for rapid dissemination.</p>
+</li>
+<li>
+<p>Commodity <a href="parts">hardware components</a>, <a href="https://github.com/Kitware/adapt/tree/main/cad">CAD models</a>, and <a href="https://gitlab.kitware.com/adapt/adapt_ros_ws">open-source software</a> allows organizations to cheaply and easily build their own payloads</p>
+</li>
+</ul>
+<p>Real-Time Ground-Station View of Remote Payload Operation
+<div class="video-container"><iframe src="https://player.vimeo.com/video/604889851" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
+<p>Real-Time Deep Neural Network Ice Segmentation
+<div class="video-container"><iframe src="https://player.vimeo.com/video/794498502" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div>
+Frozen Water (Blue) vs. Background (Green)</p>
+<h2 id="supports-a-variety-of-unique-missions">Supports a variety of unique missions</h2>
+<ul>
+<li><a href="ice_monitor/">Sea and River Ice Monitoring</a></li>
+<li><a href="ice_seal/">Monitoring Arctic Mammal Populations</a></li>
+<li><a href="search_and_rescue/">Person Search and Rescue</a></li>
+<li><a href="fire_monitoring/">Wild Fire Monitoring</a></li>
+<li><a href="coastline_monitoring/">Coastline Erosion Monitoring</a></li>
+</ul>
+<p>Ongoing work on the ADAPT project is funded by <a href="https://www.noaa.gov/">NOAA</a> to support <a href="https://uas.noaa.gov/Portals/5/Docs/NOAA%20UAS%20Program%20Overview%2019Apr2019.pdf?ver=2019-04-22-144716-137">key missions</a>.</p>
+<h2 id="explore">Explore</h2>
+<p>The ADAPT payload source code is hosted here: <a href="https://gitlab.kitware.com/adapt/adapt_ros_ws">https://gitlab.kitware.com/adapt/adapt_ros_ws</a> or
+<a href="https://gitlab.kitware.com/adapt/adapt/-/tree/master/AirSim">try the simulator with docker</a></p>
+<h2 id="events">Events</h2>
+<ul>
+<li><a href="sept_2021_collects/">Kitware and ACUASI September 2021 data collection in Fairbanks Alaska</a>.</li>
+<li><a href="https://2021noaaaiworkshop.sched.com/info">The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences</a></li>
+</ul>
+<h2 id="papers-presentations">Papers / Presentations</h2>
+<ul>
+<li>
+<p>(2022) National Innovation Center Seminar: <a href="https://docs.google.com/presentation/d/1Z0FEdAjt3vTNZYKwsOXEP_GBd8f6RWV7H0KD1kT_Cfg/edit?usp=sharing">Slides</a></p>
+</li>
+<li>
+<p>(2022) Ocean Sciences Meeting: <a href="https://docs.google.com/presentation/d/15Ib9vKES6aAzlCuejUdRuDkyPnBcADa_OHr9GyepWBY/edit?usp=sharing">Slides</a></p>
+</li>
+<li>
+<p>(2022) 1st International Workshop on Practical Deep Learning in the Wild at AAAI Conference on Artificial Intelligence: <a href="https://arxiv.org/abs/2201.10366">Paper</a></p>
+</li>
+<li>
+<p>(2021) NOAA Innovators Series: <a href="https://docs.google.com/presentation/d/1Bp65DTJMgateIyRNzrCvjfHrLshqS3AUaba3lLGbTts/edit?usp=sharing">Slides</a>, <a href="https://www.youtube.com/watch?v=eD95Di6B5wo&amp;t=1735s">Recording</a></p>
+</li>
+<li>(2021) The 3rd NOAA Workshop on Leveraging AI in Environmental Sciences: <a href="https://docs.google.com/presentation/d/1PMgJrYxrqMtuJYR-xiAdFsjSSQt90_XOcYZ5pRXP4sk/edit#slide=id.p">Slides</a>, <a href="https://drive.google.com/file/d/1BI0qeIOw7TK262lNJzK_m3XIJd-RSvQn/view?usp=sharing">Recording</a></li>
+</ul>
+<p><img alt="sUAS" src="img/ondrone.png" style="height:260px; align:left" /> <img alt="sUAS" src="img/ondrone2.png" style="height:260px;align:right" /></p>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+  
+    
+  
+
+
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        <label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.top"], "search": "assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+    
+  </body>
+</html>
