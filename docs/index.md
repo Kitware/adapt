@@ -14,9 +14,12 @@ Get the source code: [https://gitlab.kitware.com/adapt/adapt_ros_ws](https://git
 
 * Commodity [hardware components](parts), [CAD models](https://github.com/Kitware/adapt/tree/main/cad), and [open-source software](https://gitlab.kitware.com/adapt/adapt_ros_ws) allows organizations to cheaply and easily build their own payloads
 
+Real-Time Ground-Station View of Remote Payload Operation
 ![type:video](https://player.vimeo.com/video/604889851)
 
+Real-Time Deep Neural Network Ice Segmentation
 ![type:video](https://player.vimeo.com/video/794498502)
+Frozen Water (Blue) vs. Background (Green)
 
 ## Supports a variety of unique missions
 
